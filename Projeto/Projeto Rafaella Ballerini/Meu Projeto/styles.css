@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #45014e 16.62%, #cc52cc 85.61%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: center;
+}
+
+.logo {
+    height: 72px;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    font-family: 'Sarala', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a:hover {
+    color: rgba(43, 6, 102, 0.63);
+}
+
+main {
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudotexto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+}
+
+.conteudotitulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.712);
+}
+
+.conteudosubtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+button {
+    background-color: rgba(90, 12, 216, 0.53);;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(43, 6, 102, 0.63);
+    cursor: pointer;
+}
+
+.ballebot {
+    width: 300px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.conteudo2titulo {
+    border-top: 0.4px solid white;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin: 0 auto 16px auto;
+}
+
+p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+
+.fut {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+

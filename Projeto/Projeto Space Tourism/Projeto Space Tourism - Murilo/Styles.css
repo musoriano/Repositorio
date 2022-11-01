@@ -1,96 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Bellefair&family=Merriweather:ital@1&display=swap');
 
+
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Bellefair', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: none;
+    border: none;
+}
 
 body {
-    position: relative;
-    width: 1440px;
-    height: 800px;
-    background: #0B0D17;
-    background-image: url('assets/home/Backgroundimg.jpg');
-}
-
-
-/* body {
-    background-image: url('assets/home/Backgroundimg.jpg');
+    background-image: url(assets/home/Backgroundimg.jpg);
+    padding: 30px 0px 0px 50px;
+    background-size: 1440px 900px;
+    background-repeat: no-repeat;
     color: white;
-    margin: 0 auto;
-    margin-top: 40px;
-} 
-
-*/
+}
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-li {
-    display: inline-block;
-    margin: 20px;
-}
-
-a {
-    color: white;
-}
-
-ul {
+    position: relative;
+    height: 14vh;
+    width: 1316px;
     display: flex;
     align-items: center;
-    width: 780px;
-    height: 96px;
-    left: 610px;
-    top: 40px;
-    background: rgba(255, 255, 255, 0.04);
+}
+
+.logo {
+    position: absolute;
+}
+
+.linha {
+    position: absolute;
+    width: 450px;
+    height: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    left: 100px;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.menu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.04);
+    height: 14vh;
+    align-items: center;
+    display: flex;
+    width: 830px;
+    left: 486px;
     backdrop-filter: blur(40.7742px);
-    justify-content: center;
 }
 
-.logotop {
-    width: 48px;
-    height: 48px;
-    left: 55px;
-    top: 64px;
-    margin-left: 60px;
+navi {
+    margin: auto;
+}
+
+navi>a {
+    margin-right: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 150px;
-    margin-top: 120px;
+    position: relative;
+
 }
 
-.texto {
-    width: 450px;
+.conteudo {
+    width: 500px;
+    height: 500px;
+    padding-top: 170px;
+    display: inline-block;
+    margin-left: 100px;
 }
 
-h3 {
-    font-size: 28px;
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #D0D6F9;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 34px;
 }
 
 h1 {
-    font-size: 150px;
+    font-family: 'Bellefair', serif;
+    font-size: 10em;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
 }
 
 p {
-    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #D0D6F9;
+    font-style: normal;
 }
 
-button {
-    margin-top: 10px;
-    margin-right: 250px;
-    Width: 200px; 
-    Height: 200px;
-    border-radius: 100%;
-}
-
-hr {
+.divbotao {
+    padding-top: 200px;
     position: absolute;
-    border-style: solid;
-    color: white;
-    width: 400px;
-    margin-left: 300px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+
+.divbotao>a {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: 'Bellefair', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    justify-content: center;
 }

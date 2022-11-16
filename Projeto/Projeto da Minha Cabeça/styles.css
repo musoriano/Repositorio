@@ -22,6 +22,10 @@ html {
 
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.719)), url('images/fundopreto.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: justify;
@@ -196,7 +200,7 @@ article {
     font-weight: normal;
     text-align: justify;
     margin: 2vh auto auto auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 95%;
 }
 
@@ -260,7 +264,17 @@ footer {
     bottom: 0px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 850px) {
+    .comeco>p {
+        font-size: 1.5rem;
+    }
+
+    .continuacao>p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
 
     .imagens1 {
         display: flex;
@@ -280,6 +294,15 @@ footer {
     
     .comeco>h2 {
         font-size: 1.5rem;
+    }
+
+    .comeco>p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        text-align: justify;
+        margin: 2vh auto auto auto;
+        font-size: 1rem;
+        width: 95%;
     }
 
     .continuacao>h2 {
@@ -330,3 +353,5 @@ footer {
         margin: 3vh auto;
     }
 }
+
+    
